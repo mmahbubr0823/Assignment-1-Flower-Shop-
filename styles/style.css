@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header style */
+
+header{
+    background-color: rgb(240, 235, 235);
+    margin-bottom: 30px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 120px 0;
+}
+.header-info h1{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: 700;
+}
+.btn-shop {
+    background-color: rgb(235, 109, 109);
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+
+/* featured flower styles */
+
+.featured-flower{
+    margin-bottom: 60px;
+}
+.featured-info{
+    text-align: center;
+}
+.featured-info h1{
+    font-size: 40px;
+    font-weight: 700px;
+}
+.featured-info p{
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.featured-imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 35px;
+}
+.featured-img1, .featured-img2, .featured-img3{
+    height: 450px;
+    width: 300px;
+}
+.featured-img1{
+    background-color: antiquewhite;
+    padding: 50px;
+   border-radius: 200px 200px 0 0;
+}
+.featured-img2{
+    background-color: rgb(146, 219, 227);
+    padding: 50px;
+   border-radius: 200px 200px 0 0;
+}
+.featured-img3{
+    background-color: rgb(206, 251, 208);
+    padding: 50px;
+   border-radius: 200px 200px 0 0;
+}
+.featured-imgs-caption{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.featured-img-caption{
+   text-decoration: underline;
+}
+
+/* delivery section styles
+
+*/
+
+.delivery-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(201, 215, 162);
+    margin: 0 90px;
+    padding: 60px;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.delivery-item{
+    text-align: center;
+}
+.delivery-item p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+
+}
+
+/* hot deal styles */
+
+.hot-deal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 70px;
+    background-color: rgb(237, 231, 244);
+    margin-bottom: 60px;
+}
+.hot-info{
+    text-align: center;
+}
+.hot-info h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.hot-info span{
+    color: goldenrod;
+}
+
+.hot-info p{
+   margin: 15px 0;
+}
+
+/* instagram container styles */
+
+
+.instagram-container{
+    margin: 0 200px 50px;
+}
+.instagram-info{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.instagram-info h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.instagram-imgs{
+    display: flex;
+}
+.instagram-img img{
+   width: 75%;
+}
