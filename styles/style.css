@@ -1,7 +1,7 @@
-*{
+* {
     margin: 0;
     padding: 0;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 
 }
 
@@ -9,70 +9,81 @@ font-family: 'Poppins', sans-serif;
 */
 
 
-  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans:wght@500&display=swap');
 
 
 /* header style */
 
-header{
+header {
     background-color: rgb(240, 235, 235);
     margin-bottom: 30px;
 }
-header nav{
+
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 120px 0;
 }
-.nav-title{
+
+.nav-title {
     font-size: 40px;
     font-weight: 700;
 }
-.nav-title span{
+
+.nav-title span {
     color: rgb(216, 68, 68);
 }
-.nav-items{
+
+.nav-items {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 80px;
 }
-.nav-items ul{
+
+.nav-items ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.nav-items ul li{
+
+.nav-items ul li {
     margin-left: 30px;
-list-style: none;
+    list-style: none;
 }
-.nav-items ul li a{
+
+.nav-items ul li a {
     text-decoration: none;
     color: black;
     font-size: 18px;
     font-weight: 500;
 }
-.nav-items ul li a:hover{
+
+.nav-items ul li a:hover {
     text-decoration: underline;
     color: rgb(234, 165, 165);
 }
-#btn-signup a{
+
+#btn-signup a {
     text-decoration: none;
     color: white;
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
     padding: 40px 120px 0;
 }
-.banner-info h1{
+
+.banner-info h1 {
     margin-bottom: 20px;
     font-size: 50px;
     font-weight: 700;
 }
+
 .btn-shop {
     background-color: rgb(235, 109, 109);
     padding: 15px 20px;
@@ -85,73 +96,86 @@ list-style: none;
 
 /* featured flower styles */
 
-.featured-flower{
+.featured-flower {
     margin-top: 100px;
 }
-.featured-info{
+
+.featured-info {
     text-align: center;
 }
-.featured-info h1{
+
+.featured-info h1 {
     font-size: 40px;
     font-weight: 700px;
 }
-.featured-info p{
+
+.featured-info p {
     margin: 20px 0;
     font-size: 16px;
 }
 
-.featured-imgs{
+.featured-imgs {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
     margin-top: 35px;
 }
-.featured-img1, .featured-img2, .featured-img3{
+
+.featured-img1,
+.featured-img2,
+.featured-img3 {
     height: 450px;
     width: 300px;
 }
-.featured-img1{
+
+.featured-img1 {
     background-color: antiquewhite;
     padding: 50px;
-   border-radius: 200px 200px 0 0;
+    border-radius: 200px 200px 0 0;
 }
-.featured-img2{
+
+.featured-img2 {
     background-color: rgb(146, 219, 227);
     padding: 50px;
-   border-radius: 200px 200px 0 0;
+    border-radius: 200px 200px 0 0;
 }
-.featured-img3{
+
+.featured-img3 {
     background-color: rgb(206, 251, 208);
     padding: 50px;
-   border-radius: 200px 200px 0 0;
+    border-radius: 200px 200px 0 0;
 }
-.featured-imgs-caption{
+
+.featured-imgs-caption {
     display: flex;
     justify-content: space-evenly;
     margin-top: 15px;
 }
-.featured-img-caption{
-   text-decoration: underline;
+
+.featured-img-caption {
+    text-decoration: underline;
 }
 
 /* delivery section styles
 
 */
 
-.delivery-container{
+.delivery-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(201, 215, 162);
+    background-color: rgb(238, 249, 209);
     margin: 100px 90px;
     padding: 60px;
     gap: 50px;
 }
-.delivery-item{
+
+.delivery-item {
     text-align: center;
 }
-.delivery-item p{
+
+.delivery-item p {
     font-size: 20px;
     font-weight: 600;
     margin-top: 15px;
@@ -160,7 +184,7 @@ list-style: none;
 
 /* hot deal styles */
 
-.hot-deal{
+.hot-deal {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,90 +193,103 @@ list-style: none;
     background-color: rgb(237, 231, 244);
     margin-bottom: 60px;
 }
-.hot-info{
+
+.hot-info {
     text-align: center;
 }
-.hot-info h1{
+
+.hot-info h1 {
     font-size: 40px;
     font-weight: 700;
 }
-.hot-info span{
+
+.hot-info span {
     color: goldenrod;
 }
 
-.hot-info p{
-   margin: 15px 0;
+.hot-info p {
+    margin: 15px 0;
 }
 
 /* instagram container styles */
 
 
-.instagram-container{
+.instagram-container {
     margin: 0 200px 50px;
 }
-.instagram-info{
+
+.instagram-info {
     text-align: center;
     margin-bottom: 30px;
 }
-.instagram-info h1{
+
+.instagram-info h1 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 15px;
 }
-.instagram-imgs{
+
+.instagram-imgs {
     display: flex;
 }
-.instagram-img img{
-   width: 75%;
+
+.instagram-img img {
+    width: 75%;
 }
 
 /* latest-deal-container styles */
 
-.latest-deal-container{
+.latest-deal-container {
     margin: 100px 200px;
-    /* margin-bottom: 30px; */
     padding: 90px 120px;
     border-radius: 5px;
     text-align: center;
-   background-image: url('../Flower\ Asset/Rectangle 9.png');
+    background-image: url('../Flower\ Asset/Rectangle 9.png');
 }
-.latest-deal-container input{
-   width: 50%;
-   margin: 0 15px;
-   padding: 12px;
-   border: none;
-   border-radius: 5px;
+
+.latest-deal-container input {
+    width: 50%;
+    margin: 0 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
 }
-.latest-deal-container h1{
-   font-size: 30px;
-   font-weight: 700px;
-   margin-bottom: 10px;
+
+.latest-deal-container h1 {
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 10px;
 }
-.latest-deal-container p{
-   font-size: 16px;
-   font-weight: 400px;
-   margin-bottom: 10px;
+
+.latest-deal-container p {
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 10px;
 }
 
 /* footer styles */
 
-footer{
+footer {
     background-color: black;
     text-align: center;
     color: white;
     padding: 60px 0;
     margin-top: 100px;
 }
-footer h1{
+
+footer h1 {
     font-size: 50px;
     font-weight: 700px;
 }
-footer h1 span{
+
+footer h1 span {
     color: rgb(241, 73, 73);
 }
-footer .footer-info{
+
+footer .footer-info {
     margin: 15px 0;
 }
-footer .copyright{
-   color: burlywood;
+
+footer .copyright {
+    color: burlywood;
 }
