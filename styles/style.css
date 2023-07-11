@@ -231,10 +231,11 @@ header nav {
 
 .instagram-imgs {
     display: flex;
+    gap: 10px;
 }
 
-.instagram-img img {
-    width: 75%;
+.instagram-imgs img {
+    width: 25%;
 }
 
 /* latest-deal-container styles */
