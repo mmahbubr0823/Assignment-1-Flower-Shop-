@@ -1,7 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+font-family: 'Poppins', sans-serif;
+
 }
+
+/* utilities 
+*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Open+Sans&family=Poppins:wght@400;500&family=Work+Sans:wght@500&display=swap');
+
 
 /* header style */
 
@@ -9,21 +18,64 @@ header{
     background-color: rgb(240, 235, 235);
     margin-bottom: 30px;
 }
-.header-container{
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 120px 0;
+}
+.nav-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.nav-title span{
+    color: rgb(216, 68, 68);
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.nav-items ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items ul li{
+    margin-left: 30px;
+list-style: none;
+}
+.nav-items ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-items ul li a:hover{
+    text-decoration: underline;
+    color: rgb(234, 165, 165);
+}
+#btn-signup a{
+    text-decoration: none;
+    color: white;
+}
+
+.banner-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
     padding: 40px 120px 0;
 }
-.header-info h1{
+.banner-info h1{
     margin-bottom: 20px;
     font-size: 50px;
     font-weight: 700;
 }
 .btn-shop {
     background-color: rgb(235, 109, 109);
-    padding: 10px 15px;
+    padding: 15px 20px;
     margin-top: 10px;
     border: none;
     border-radius: 5px;
@@ -34,7 +86,7 @@ header{
 /* featured flower styles */
 
 .featured-flower{
-    margin-bottom: 60px;
+    margin-top: 100px;
 }
 .featured-info{
     text-align: center;
@@ -92,10 +144,9 @@ header{
     justify-content: center;
     align-items: center;
     background-color: rgb(201, 215, 162);
-    margin: 0 90px;
+    margin: 100px 90px;
     padding: 60px;
     gap: 50px;
-    margin-bottom: 50px;
 }
 .delivery-item{
     text-align: center;
@@ -153,4 +204,55 @@ header{
 }
 .instagram-img img{
    width: 75%;
+}
+
+/* latest-deal-container styles */
+
+.latest-deal-container{
+    margin: 100px 200px;
+    /* margin-bottom: 30px; */
+    padding: 90px 120px;
+    border-radius: 5px;
+    text-align: center;
+   background-image: url('../Flower\ Asset/Rectangle 9.png');
+}
+.latest-deal-container input{
+   width: 50%;
+   margin: 0 15px;
+   padding: 12px;
+   border: none;
+   border-radius: 5px;
+}
+.latest-deal-container h1{
+   font-size: 30px;
+   font-weight: 700px;
+   margin-bottom: 10px;
+}
+.latest-deal-container p{
+   font-size: 16px;
+   font-weight: 400px;
+   margin-bottom: 10px;
+}
+
+/* footer styles */
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 60px 0;
+    margin-top: 100px;
+}
+footer h1{
+    font-size: 50px;
+    font-weight: 700px;
+}
+footer h1 span{
+    color: rgb(241, 73, 73);
+}
+footer .footer-info{
+    margin: 15px 0;
+}
+footer .copyright{
+   color: burlywood;
 }
